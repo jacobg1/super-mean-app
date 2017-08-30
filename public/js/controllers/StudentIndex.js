@@ -1,7 +1,8 @@
 /* global angular */
 
-angular.module('studentApp')
-.controller('StudentsController', StudentsCtrl)
+angular
+.module('studentApp')
+.controller('StudentsIndex', StudentsCtrl)
 
 StudentsCtrl.$inject = ['Student']
 

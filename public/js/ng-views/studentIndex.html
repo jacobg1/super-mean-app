@@ -1,0 +1,5 @@
+<p>index working</p>
+  <h1>Students</h1>
+    <div ng-repeat="student in vm.students">
+      <a ui-sref="studentShow({id: student._id})">{{student.name}}</a>
+    </div>
