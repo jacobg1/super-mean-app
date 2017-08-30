@@ -7,8 +7,17 @@
     <script src="angular-resource/angular-resource.js" charset="utf-8"></script>
     <script src="@uirouter/angularjs/release/angular-ui-router.js" charset="utf-8"></script>
     <script src="js/app.js" charset="utf-8"></script>
+    <script src="js/services/student.js" charset="utf-8"></script>
+    <script src="js/students/students.controller.js" charset="utf-8"></script>
   </head>
   <body ng-app="studentApp">
-    <h1>Students</h1>
+    <section ng-controller="StudentsController as vm">
+      <h1>Students</h1>
+        <ul ng-repeat="student in vm.students">
+          <p>{{student.name}}</p>
+        </ul>
+    </section>
+
+
   </body>
 </html>
