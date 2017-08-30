@@ -8,10 +8,10 @@ module.exports = router
 router.param('studentId', students.load)
 
 router.get('/students', students.index)
-// router.post('/students', students.create)
-// router.get('/students/:studentId', students.show)
-// router.put('/students/:studentId', students.update)
-// router.delete('/students/:studentId', students.destroy)
+router.post('/students', students.create)
+router.get('/students/:studentId', students.show)
+router.put('/students/:studentId', students.update)
+router.delete('/students/:studentId', students.destroy)
 
 router.use(function (err, req, res, next) {
   if (err.message &&
