@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const connect = require('./connect')
-const studentSeeds = require('./studentSeeds')
+const studentSeeds = require('./seedStudents')
 
 const Student = mongoose.model('Student')
 

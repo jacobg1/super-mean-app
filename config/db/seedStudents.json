@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Jacob",
+    "age": "22",
+    "photo": "http://www.acfe.com/uploadedImages/ACFE_Website/Content/images/membership-certification/graduate-member.jpg",
+    "completed": true
+  },
+  {
+    "name": "Patrick",
+    "age": "24",
+    "photo": "http://www.acfe.com/uploadedImages/ACFE_Website/Content/images/membership-certification/graduate-member.jpg",
+    "completed": true
+  },
+  {
+    "name": "Some dude",
+    "age": "33",
+    "photo": "http://www.acfe.com/uploadedImages/ACFE_Website/Content/images/membership-certification/graduate-member.jpg",
+    "completed": false
+  }
+]
