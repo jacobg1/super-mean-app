@@ -7,7 +7,7 @@ const app = express()
 module.exports = app
 
 require('./config/express')(app)
-// require('./config/routes')(app)
+require('./config/routes')(app)
 
 connect()
   .then(db => {
